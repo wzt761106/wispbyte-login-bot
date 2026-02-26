@@ -2,7 +2,7 @@ name: Wispbyte Auto Login
 
 on:
   schedule:
-    - cron: '31 20 */3 * *'    # 每3天UTC 20点31分
+    - cron: '31 20 */2 * *'    # 每2天UTC 20点31分
   workflow_dispatch:
 
 jobs:
